@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         ActivityMainBinding binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
-        MainActivityVM vm = new MainActivityVM("Hola Mundo.");
+        MainActivityVM vm = new MainActivityVM("Miguelito", "https://avatars3.githubusercontent.com/u/216735");
         binding.setViewModel(vm);
     }
 
