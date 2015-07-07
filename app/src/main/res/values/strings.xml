@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Alarmr</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

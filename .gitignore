@@ -25,3 +25,13 @@ proguard/
 
 # Log Files
 *.log
+
+# IntelliJ IDEA - ignore everything except code configs
+.idea/*
+!.idea/inspectionProfiles/profiles_settings.xml
+!.idea/codeStyleSettings.xml
+*.ipr
+*.iws
+*.iml
+classes
+gen-external-apklibs
