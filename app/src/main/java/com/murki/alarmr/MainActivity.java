@@ -54,4 +54,12 @@ public class MainActivity extends AppCompatActivity implements TimePickerDialogF
         vm.pickTime(getSupportFragmentManager());
     }
 
+    public void createAlarm(View view) {
+
+    }
+
+    public void createReminder(View view) {
+        vm.createReminder(getContentResolver());
+    }
+
 }

@@ -4,8 +4,8 @@ import android.app.Activity;
 import android.app.Dialog;
 import android.app.TimePickerDialog;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.v4.app.DialogFragment;
-//import android.support.v7.app.AppCompatDialog;
 import android.text.format.DateFormat;
 import android.widget.TimePicker;
 
@@ -27,9 +27,9 @@ public class TimePickerDialogFragment extends DialogFragment implements TimePick
         callbacks = null;
     }
 
+    @NonNull
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState) {
-//    public AppCompatDialog onCreateDialog(Bundle savedInstanceState) {
 
         final Calendar c = Calendar.getInstance();
         int defaultHour = c.get(Calendar.HOUR_OF_DAY);

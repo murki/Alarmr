@@ -44,6 +44,18 @@
                     android:text="Pick Time"
                     android:onClick="pickTime"/>
 
+                <android.support.v7.widget.AppCompatButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Create alarm"
+                    android:onClick="createAlarm"/>
+
+                <android.support.v7.widget.AppCompatButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Create reminder"
+                    android:onClick="createReminder"/>
+
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
